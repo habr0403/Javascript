@@ -49,15 +49,13 @@
     </form>
 
     <script>
-        // Task 1: Dynamic Content Update
-        document.getElementById("change-content-button").addEventListener("click", function() {
+               document.getElementById("change-content-button").addEventListener("click", function() {
             document.getElementById("heading").innerHTML = "Content Updated!";
             document.getElementById("paragraph").innerHTML = "Yep...Nobody knows";
             document.getElementById("paragraph").style.backgroundColor = "lightblue";
         });
 
-        // Task 2: Interactive Image Gallery
-        let images = document.getElementsByClassName("image");
+               let images = document.getElementsByClassName("image");
         for (let i = 0; i < images.length; i++) {
             images[i].addEventListener("click", function() {
                 if (this.classList.contains("enlarged")) {

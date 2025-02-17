@@ -7,7 +7,7 @@
     <style>
         
         #circle {
-            position: relative;
+            position: absolute;
             width: 50px;
             height: 50px;
             border-radius: 50%;
@@ -41,7 +41,7 @@
     <div id="circle"></div>
 
     <form>
-        <label for="name">What is your Name?:</label>
+        <label for="name">What shall we call you?:</label>
         <input type="text" id="name" name="name"><br><br>
         <label for="age">Do I dare ask how old you are?:</label>
         <input type="number" id="age" name="age">
